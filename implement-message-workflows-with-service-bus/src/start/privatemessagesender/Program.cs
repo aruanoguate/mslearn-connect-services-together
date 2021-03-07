@@ -9,6 +9,8 @@ namespace privatemessagesender
     class Program
     {
 
+        // This storage account was created inside a sandbox, so it will be deleted soon,
+        // and will not exist in the future.
         const string ServiceBusConnectionString = "Endpoint=sb://salesteamappalvaroruano.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=2aRXKaBr6WrBt/MkMe11K3VCn1dJ5ddy8G6xRWO4YNA=";
         const string QueueName = "salesmessages";
         static IQueueClient queueClient;
